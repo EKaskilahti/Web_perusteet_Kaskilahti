@@ -71,17 +71,17 @@ aside {
     border-radius: 10px;
 }
 
-aside h2{
+aside h3{
     background-color: #6f4e37;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-decoration: underline;
 }
+
 aside li{
     background-color: #6f4e37;
     color: white;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 h1, h2 {
