@@ -72,7 +72,7 @@ nav li {
 nav a {
     display: block;
     background-color:#6E260E;
-    color: white;
+    color: #f5f1ee;
     text-decoration: none;
     padding: 15px;
     border-radius: 8px;
@@ -90,7 +90,8 @@ main {
 }
 
 section  {
-    background-color: white;
+    display: inline-block;
+    background-color: #dfd5ce;
     padding: 20px;
     margin-bottom: 20px;
     border: 2px solid #d8c3a5;
