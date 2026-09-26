@@ -1,13 +1,14 @@
 /* CSS Document */
+html {
+height: 100%;
+}
 
 body {
+    min-height: 100vh;
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #f5f1ea;
     color: #333;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
@@ -57,7 +58,7 @@ nav a:hover {
 main {
     margin-left: 240px;
     padding: 20px;
-    flex: 1;
+    padding-bottom: 80px;
 }
 
 section  {
@@ -88,7 +89,7 @@ aside li{
     color: white;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #6f4e37;
 }
 
@@ -97,9 +98,11 @@ p, li {
 }
 
 footer {
-    width: 100%;
-    background-color: #f5f1ea;
+    position: fixed;
+    bottom: 0;
+    left: 220px;
+    right: 0;
     color: #6f4e37;
     text-align: center;
-    margin-top: auto;
+    padding: 15px;
 }
