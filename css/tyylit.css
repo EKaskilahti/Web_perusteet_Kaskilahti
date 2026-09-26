@@ -117,11 +117,24 @@ aside li{
     color: white;
 }
 
-h1, h2, h3 {
+h1 {
+    color: #834333;
+    font-family: 'Segoe Script', cursive;
+}
+
+ h2 {
+    color: #834333;
+    font-family: 'Segoe Script', cursive;
+}
+
+h3 {
     color: #834333;
 }
 
-p, li {
+p{
+    line-height: 1.6;
+}
+li {
     line-height: 1.6;
 }
 
