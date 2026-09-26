@@ -48,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #b07a4f;
+    background-color: #914100;
 }
 
 main {
@@ -56,12 +56,33 @@ main {
     padding: 20px;
 }
 
-section, aside {
+section  {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
     border: 2px solid #d8c3a5;
     border-radius: 10px;
+}
+
+aside {
+    background-color: #8b5e3c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #d8c3a5;
+    border-radius: 10px;
+}
+
+aside h2{
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+aside li{
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 h1, h2 {
