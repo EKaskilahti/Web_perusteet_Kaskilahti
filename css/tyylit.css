@@ -5,6 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #f5f1ea;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -54,6 +57,7 @@ nav a:hover {
 main {
     margin-left: 240px;
     padding: 20px;
+    flex: 1;
 }
 
 section  {
@@ -93,9 +97,9 @@ p, li {
 }
 
 footer {
-    margin-left: 220px;
-    background-color: #6f4e37;
-    color: white;
+    width: 100%;
+    background-color: #f5f1ea;
+    color: #6f4e37;
     text-align: center;
-    padding: 15px;
+    margin-top: auto;
 }
