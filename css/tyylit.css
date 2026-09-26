@@ -65,21 +65,20 @@ section  {
 }
 
 aside {
-    background-color: #8b5e3c;
+    background-color: #6f4e37;
     padding: 20px;
     margin-bottom: 20px;
-    border: 2px solid #d8c3a5;
     border-radius: 10px;
 }
 
 aside h2{
-    background-color: #8b5e3c;
+    background-color: #6f4e37;
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 aside li{
-    background-color: #8b5e3c;
+    background-color: #6f4e37;
     color: white;
     text-decoration: none;
     font-weight: bold;
