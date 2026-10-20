@@ -53,16 +53,12 @@ header {
     font-size: 20px;
 }
 
-/* GRID */
-
 .grid-container {
     display: grid;
     grid-template-columns: 220px 1fr;
     gap: 20px;
     padding: 20px;
 }
-
-/* Navigaatio */
 
 nav {
     background-color: #834333;
@@ -94,8 +90,6 @@ nav a:hover {
     background-color: #6F4E37;
 }
 
-/* Aukioloajat navigaation alla */
-
 .aukioloajat {
     margin-top: 30px;
     padding-top: 20px;
@@ -117,15 +111,11 @@ nav a:hover {
     color: white;
 }
 
-/* Sisältö */
-
 main {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
 }
-
-/* Kortit */
 
 section {
     background-color: #dfd5ce;
@@ -135,8 +125,6 @@ section {
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
-
-/* Otsikot */
 
 h1,
 h2 {
@@ -148,8 +136,6 @@ h3 {
     color: #834333;
 }
 
-/* Tekstit */
-
 p {
     line-height: 1.6;
 }
@@ -158,8 +144,6 @@ li {
     line-height: 1.6;
 }
 
-/* Footer */
-
 footer {
     text-align: center;
     color: #834333;
@@ -167,8 +151,6 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
-
-/* Mobiili */
 
 @media (max-width: 768px) {
 
