@@ -63,6 +63,11 @@ header {
     gap: 20px;
     padding: 20px;
 }
+.sivupalkki {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 nav {
     background-color: #834333;
@@ -94,10 +99,16 @@ nav a:hover {
     background-color: #6F4E37;
 }
 
+nav,
 .aukioloajat {
-    margin-top: 30px;
-    padding-top: 20px;
+    background-color: #834333;
+    padding: 20px;
+    border-radius: 10px;
     border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+.aukioloajat {
+    margin-top: 0;
+    border-top: none;
 }
 
 .aukioloajat h3 {
