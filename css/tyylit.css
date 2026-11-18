@@ -199,18 +199,11 @@ li {
     align-items: start;
 }
 
-
-.varaus {
+.yhteystiedot {
     width: 100%;
-    margin: 0;
 }
 
-.yhteystiedot {
-    background-color: #faf8f7;
-    padding: 20px;
-    border: 2px solid #b88161;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+.varaus {
     width: 100%;
 }
 
@@ -265,6 +258,37 @@ footer {
     border-radius: 10px;
 }
 
+.kiitos {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.kiitos h1 {
+    color: #834333;
+    font-family: 'Segoe Script', cursive;
+    margin-bottom: 20px;
+}
+
+.kiitos p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.paluu-nappi {
+    display: inline-block;
+    background-color: #6f4e37;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.paluu-nappi:hover {
+    background-color: #5a3d2b;
+}
+
 @media (max-width: 768px) {
 
     .grid-container {
@@ -272,7 +296,12 @@ footer {
     }
 
     .yhteys-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+
+    .varaus,
+    .yhteystiedot {
+        width: 100%;
     }
 
     .banner,
@@ -296,10 +325,6 @@ footer {
     .menu-taulukko {
         width: 100%;
         font-size: 14px;
-    }
-
-    .varaus {
-        width: 90%;
     }
 
     nav {
