@@ -53,9 +53,42 @@
                 <p>Puh. 1234567890</p>
                 <p>Sähköposti: Huli@huliscafe.fi</p>
 
-                <p>Löydät meidät myös sosiaalisista medioista nimimerkillä "Huli's Cafe":</p><img src="kuvat/sosiaaliset_mediat.png" alt="Sosiaaliset mediat" width="300" height="150">
+                <p>Löydät meidät myös sosiaalisista medioista nimimerkillä "Huli's Cafe":</p>
+                <img src="kuvat/sosiaaliset_mediat.png" alt="Sosiaaliset mediat" width="270" height="150">
 
         </section>
+
+        <section class="varaus">
+            <h2>Varaa pöytä ja lautapeli</h2>
+            <form>
+                <label for="nimi">Nimi:</label>
+                <input type="text" id="nimi" name="nimi" required>
+
+                <label for="email">Sähköposti:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pvm">Päivämäärä:</label>
+                <input type="date" id="pvm" name="pvm" required>
+
+                <label for="aika">Saapumisaika:</label>
+                <input type="time" id="aika" name="aika" required>
+
+                <label for="henkilot">Henkilömäärä:</label>
+                <input type="number" id="henkilot" name="henkilot" min="1" max="10" required>
+
+                <label for="peli">Varaa lautapeli:</label>
+                <select id="peli" name="peli">
+                    <option value="">-- Valitse peli --</option>
+                    <option value="XXXX">XXXX</option>
+                </select>
+
+                <label for="viesti">Lisätiedot:</label>
+                <textarea id="viesti" name="viesti" rows="3"></textarea>
+
+                <button type="submit">Lähetä varaus</button>
+            </form>
+        </section>
+
     </main>
 </div>
 

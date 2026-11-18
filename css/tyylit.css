@@ -29,6 +29,7 @@ header {
     object-fit: cover;
     display: block;
 }
+
 .bannerialue {
     position: relative;
 }
@@ -63,6 +64,7 @@ header {
     gap: 20px;
     padding: 20px;
 }
+
 .sivupalkki {
     display: flex;
     flex-direction: column;
@@ -106,6 +108,7 @@ nav,
     border-radius: 10px;
     border-top: 2px solid rgba(255, 255, 255, 0.3);
 }
+
 .aukioloajat {
     margin-top: 0;
     border-top: none;
@@ -164,6 +167,65 @@ li {
     gap: 20px;
 }
 
+.menu-otsikko {
+    text-align: center;
+}
+
+.menu-taulukko {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.menu-taulukko th {
+    background-color: #6f4e37;
+    color: white;
+}
+
+.menu-taulukko th,
+.menu-taulukko td {
+    border: 1px solid #d4c4b0;
+    padding: 12px;
+}
+
+.menu-taulukko tr:hover {
+    background-color: #f2e8dc;
+}
+
+.varaus {
+    width: 400px;
+    margin: 30px auto;
+}
+
+.varaus form {
+    display: flex;
+    flex-direction: column;
+}
+
+.varaus label {
+    margin-top: 10px;
+}
+
+.varaus input,
+.varaus select,
+.varaus textarea {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.varaus button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.varaus button:hover {
+    background-color: #5a3d2b;
+}
+
 footer {
     text-align: center;
     color: #834333;
@@ -171,6 +233,7 @@ footer {
     padding: 15px;
     margin-top: 20px;
 }
+
 .kuvagalleria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -191,8 +254,14 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .banner {
+    .banner,
+    .banner-video {
         height: 250px;
+    }
+
+    .banneriteksti {
+        width: 80%;
+        padding: 10px;
     }
 
     .banneriteksti h1 {
@@ -203,4 +272,20 @@ footer {
         font-size: 16px;
     }
 
+    .menu-taulukko {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .varaus {
+        width: 90%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .kuvagalleria {
+        grid-template-columns: 1fr;
+    }
 }
