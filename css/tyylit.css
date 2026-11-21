@@ -171,7 +171,7 @@ li {
 }
 
 .menu-taulukko {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     border-collapse: collapse;
 }
@@ -200,6 +200,11 @@ li {
     background-color: #f2e8dc;
 }
 
+.taulukko-alue {
+    width: 100%;
+    overflow-x: auto;
+}
+
 .yhteys-grid {
     display: flex;
     gap: 20px;
@@ -222,12 +227,17 @@ li {
 .varaus label {
     margin-top: 10px;
 }
+.varaus select {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
 
 .varaus input,
 .varaus select,
 .varaus textarea {
-    padding: 8px;
-    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .varaus button {
@@ -263,6 +273,11 @@ footer {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.yhteystiedot img {
+    max-width: 100%;
+    height: auto;
 }
 
 .kiitos {
@@ -304,11 +319,14 @@ footer {
 
     .yhteys-grid {
         flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
     }
 
     .varaus,
     .yhteystiedot {
-        width: 100%;
+        width: auto;
     }
 
     .banner,
@@ -330,8 +348,20 @@ footer {
     }
 
     .menu-taulukko {
-        width: 100%;
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .menu-taulukko td,
+    .menu-taulukko th {
+        padding: 6px;
+    }
+
+    .menu-taulukko td[rowspan] {
+        font-size: 12px;
+    }
+
+    .taulukko-alue {
+    overflow-x: auto;
     }
 
     nav {
@@ -357,7 +387,4 @@ footer {
          font-size: 14px;
      }
 
-     .menu-taulukko {
-        font-size: 12px;
-     }
 }
