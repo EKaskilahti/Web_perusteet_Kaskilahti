@@ -1,5 +1,4 @@
 /* CSS Document */
-
 html {
     height: 100%;
 }
@@ -203,7 +202,6 @@ li {
 
 .yhteys-grid {
     display: flex;
-    grid-template-columns: 2fr 1fr;
     gap: 20px;
     align-items: start;
 }
@@ -343,4 +341,23 @@ footer {
     .kuvagalleria {
         grid-template-columns: 1fr;
     }
+}
+
+ @media (max-width: 480px) {
+     .banneriteksti h1 {
+         font-size: 22px;
+     }
+
+     .banneriteksti p {
+         font-size: 14px;
+     }
+
+     nav a {
+         padding: 10px;
+         font-size: 14px;
+     }
+
+     .menu-taulukko {
+        font-size: 12px;
+     }
 }
