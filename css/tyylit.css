@@ -322,7 +322,6 @@ footer {
         gap: 20px;
         width: 100%;
     }
-    }
 
     .varaus,
     .yhteystiedot {
@@ -361,7 +360,7 @@ footer {
     }
 
     .taulukko-alue {
-    overflow-x: auto;
+        overflow-x: auto;
     }
 
     nav {
@@ -373,18 +372,17 @@ footer {
     }
 }
 
- @media (max-width: 480px) {
-     .banneriteksti h1 {
-         font-size: 22px;
-     }
+@media (max-width: 480px) {
+    .banneriteksti h1 {
+        font-size: 22px;
+    }
 
-     .banneriteksti p {
-         font-size: 14px;
-     }
+    .banneriteksti p {
+        font-size: 14px;
+    }
 
-     nav a {
-         padding: 10px;
-         font-size: 14px;
-     }
-
+    nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
 }
